@@ -1,38 +1,9 @@
-# sv
+# Why?
+I wanted to sell stuff on ebay but I was mostly noticing really small or reall high prices.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+To battle with that, I needed to have a chart representation of those price groups.
 
-## Creating a project
+I didn't try to find a solution online, so I made my own thing.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+# ACHTUNG!!!
+For now is ugly af (both code and frontend) and works only with Ebay!
