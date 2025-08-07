@@ -1,7 +1,7 @@
 # Why?
-I wanted to sell stuff on ebay but I was mostly noticing really small or reall high prices.
+I wanted to sell stuff on ebay but while doing research on the best price to put, my brain was focusing only on really small or really high prices.
 
-To battle with that, I needed to have a chart representation of those price groups.
+To cope with that, I needed to have a chart representation of existing price groups.
 
 I didn't try to find a solution online, so I made my own thing.
 
