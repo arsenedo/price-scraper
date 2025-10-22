@@ -6,10 +6,10 @@ export const actions = {
         const data = await request.formData();
         const url = data.get('url') as string;
 
-        let scrapedBody;
+				let scrapedBody;
 
-		scrapedBody = await PageScrapingHandler.scrapPage(url).then((body) => body);
+				scrapedBody = await PageScrapingHandler.scrapPage(url).then((body) => body);
 
-        return { success: true, scrapedBody }
+				return { success: true, scrapedBody }
 	}
 } satisfies Actions;

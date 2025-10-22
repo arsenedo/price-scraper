@@ -13,7 +13,7 @@
         }
 
         div.innerHTML = scrapedData.scrapedBody;
-
+				console.log(div)
         const priceArray = [...div.querySelectorAll('.s-card__price')]
         .map((HTMLElement) => parseFloat(HTMLElement.textContent.replace(/[^0-9.-]+/g, "")))
         .sort((a, b) => a - b);
